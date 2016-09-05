@@ -1,6 +1,6 @@
 ---
 name: GroupsKits
-author: JUZEXMOD
+author: JUZEXMOD/DevolperPHP
 main: GroupsKits\Main
 version: 1.0
 api: [2.0.0]
