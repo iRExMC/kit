@@ -10,12 +10,9 @@ use pocketmine\utils\TextFormat as Color;
 public function onEnabled(){
 $this->getServer()->getLogger()->info(Color::GREEN."[kit] Plugin Has Been Enabled");
 }
-
-
 public function onDisable(){
 $this->getServer()->getLogger()->info(Color::RED."[GroupsKits] Plugin Has Been Disabled");
 }
-
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
 switch($cmd->getName()){
 case 'kitplayer':
@@ -29,6 +26,7 @@ $sender->getInventory()->additem(item::get(272, 0, 1));
 $sender->getInventory()->additem(item::get(apple, 0, 64));
 $sender->getLevel()->addSound(new AnvilUseSound($sender));
 $sender->getLevel(5)->addParticle(new HeartParticle($sender));
+}
 }
 }
 }
