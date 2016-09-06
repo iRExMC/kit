@@ -6,6 +6,8 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\utils\TextFormat as Color;
+use pocketmine\inventory\InventoryBase;
+use pocketmine\item\Item;
 
 public function onEnabled(){
 $this->getServer()->getLogger()->info(Color::GREEN."[kit] Plugin Has Been Enabled");
