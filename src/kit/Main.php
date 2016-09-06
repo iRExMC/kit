@@ -11,7 +11,7 @@ public function onEnabled(){
 $this->getServer()->getLogger()->info(Color::GREEN."[kit] Plugin Has Been Enabled");
 }
 public function onDisable(){
-$this->getServer()->getLogger()->info(Color::RED."[GroupsKits] Plugin Has Been Disabled");
+$this->getServer()->getLogger()->info(Color::RED."[kit] Plugin Has Been Disabled");
 }
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
 switch($cmd->getName()){
