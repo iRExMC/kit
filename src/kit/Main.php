@@ -1,6 +1,6 @@
 <?php
 
-namespace kit
+namespace kit;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
